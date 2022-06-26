@@ -1,0 +1,42 @@
+{
+    "doc_errors_list" : [
+        { 
+          "error_name" : "errorX",
+          "error_type" : "error_1A",
+          "error_category" : "normal"
+
+        },
+        {
+            "error_name" : "errorY",
+            "error_type" : "error_2A",
+            "error_category" : "v high"
+        },
+        {
+            "error_name" : "errorZ",
+            "error_type" : "error_3A",
+            "error_category" : "critical"
+        }
+     ],
+     "doc_warnings_list" : [
+        {
+          "name of check that has triggered a warning" : "p"
+        },
+        {
+          "another name of a check that has triggered a warning" : "q"
+        },
+        {
+          "yet another name of a check that has triggered a warning" : "r"
+        }
+     ],
+     "doc_infos_list" : [
+        {
+          "name of check that has triggered an info message" : "s"
+        },
+        {
+          "another name of a check that has triggered an info message" : "t"
+        },
+        {
+          "yet another name of a check that has triggered an info message" : "u"
+        }
+     ]
+}
